@@ -1,0 +1,17 @@
+{
+    "name": "gabriel-keilty/portfolio",
+    "description": "My portfolio website",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "authors": [
+        {
+            "name": "Gabriel Keilty",
+            "email": "gabrielpkeilty@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
