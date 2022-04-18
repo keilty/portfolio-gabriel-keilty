@@ -17,5 +17,7 @@ $router->get('/about', [MainController::class, 'about']);
 $router->get('/contact', [MainController::class, 'contact']);
 $router->post('/contact', [MainController::class, 'contact']);
 
+$router->resolve();
+
 ?>
 
